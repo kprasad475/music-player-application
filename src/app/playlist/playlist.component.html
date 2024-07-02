@@ -1,0 +1,5 @@
+<div class="playlist">
+    <ul>
+      <li *ngFor="let track of tracks" (click)="playTrack(track)">{{ track.title }}</li>
+    </ul>
+  </div>
