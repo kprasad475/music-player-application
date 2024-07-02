@@ -1,0 +1,50 @@
+.app-container {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
